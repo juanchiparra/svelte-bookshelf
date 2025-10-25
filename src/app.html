@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="A bookshelf" />
+	<meta name="keywords" content="svelte-bookshelf" />
+	<meta name="author" content="Juanchi Parra" />
+	<meta property="og:title" content="svelte-bookshelf" />
+	<meta property="og:description" content="A bookshelf" />
+	<meta property="og:url" content="https://juanchiparra.github.io/svelte-bookshelf/" />
+	<meta property="og:type" content="website" />
+	%sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
+</html>
+
+<style>
+	html {
+		overflow-y: scroll;
+	}
+
+	body {
+		background: #141414;
+		color: #e0e0e0;
+		font-family: system-ui, sans-serif;
+		padding: 40px;
+	}
+</style>
